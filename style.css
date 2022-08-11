@@ -1,108 +1,10 @@
-/*-----------------------------------------------------------------------------------
 
-	Theme Name: Canvas
-	Theme URI: http://themes.semicolonweb.com/html/canvas
-	Description: The Multi-Purpose Template
-	Author: SemiColonWeb
-	Author URI: http://themeforest.net/user/semicolonweb
-	Version: 6.1.4
-
------------------------------------------------------------------------------------*/
-
-/* ----------------------------------------------------------------
-
-	- Basic
-	- Typography
-	- Basic Layout Styles
-	- Helper Classes
-	- Sections
-	- Columns & Grids
-	- Flex Slider
-	- Swiper Slider
-	- Top Bar
-	- Header
-		- Logo
-		- Primary Menu
-		- Mega Menu
-		- Top Search
-		- Top Cart
-		- Sticky Header
-		- Page Menu
-		- Side Header
-	- Side Panel
-	- Slider
-	- Page Title
-	- Content
-	- Portfolio
-	- Blog
-	- Shop
-	- Events
-	- Shortcodes
-		- Countdown
-		- Buttons
-		- Promo Boxes
-		- Featured Boxes
-		- Process Steps
-		- Styled Icons
-		- Toggles
-		- Accordions
-		- Tabs
-		- Side Navigation
-		- FAQ List
-		- Clients
-		- Testimonials
-		- Team
-		- Pricing Boxes
-		- Counter
-		- Animated Rounded Skills
-		- Skills Bar
-		- Dropcaps & Highlights
-		- Quotes & Blockquotes
-		- Text Rotater
-	- Owl Carousel
-	- Overlays
-	- Forms
-	- Google Maps
-	- Heading Styles
-	- Divider
-	- Magazine Specific Classes
-	- Go To Top
-	- Error 404
-	- Landing Pages
-	- Preloaders
-	- Toastr Notifications
-	- Footer
-	- Widgets
-		- Tag Cloud
-		- Links
-		- Testimonial & Twitter
-		- Quick Contact Form
-		- Newsletter
-		- Twitter Feed
-		- Navigation Tree
-	- Wedding
-	- Bootstrap Specific
-	- Cookie Notification
-	- Stretched Layout
-	- Page Transitions
-	- Youtube Video Backgrounds
-
----------------------------------------------------------------- */
-
-
-/* ----------------------------------------------------------------
-	Bootstrap Adjustments
------------------------------------------------------------------*/
 
 
 @media (min-width: 1440px) {
 	.container { max-width: 1320px; }
 }
 
-
-/* ----------------------------------------------------------------
-	Basic
------------------------------------------------------------------*/
 
 dl, dt, dd, ol, ul, li {
 	margin: 0;
@@ -141,11 +43,6 @@ dl, dt, dd, ol, ul, li {
 :focus { outline: none !important; }
 
 
-/* ----------------------------------------------------------------
-	Typography
------------------------------------------------------------------*/
-
-
 body {
 	line-height: 1.5;
 	color: #555;
@@ -168,11 +65,6 @@ iframe {
 	border: 0 !important;
 	overflow: hidden !important;
 }
-
-
-/* ----------------------------------------------------------------
-	Basic Layout Styles
------------------------------------------------------------------*/
 
 
 h1,
@@ -265,10 +157,6 @@ small { font-family: 'Lato', sans-serif; }
 	}
 }
 
-
-/* ----------------------------------------------------------------
-	Helper Classes
------------------------------------------------------------------*/
 
 #wrapper {
 	position: relative;
@@ -541,11 +429,6 @@ span.middot {
 	overflow: visible !important;
 }
 
-
-/* ----------------------------------------------------------------
-	Opacity Utility Classes
------------------------------------------------------------------*/
-
 .op-ts {
 	-webkit-transition: opacity .5s ease;
 	transition: opacity .5s ease;
@@ -607,10 +490,6 @@ span.middot {
 }
 
 
-/* ----------------------------------------------------------------
-	Text Color Utility Classes
------------------------------------------------------------------*/
-
 .text-ts {
 	-webkit-transition: color .5s ease;
 	transition: color .5s ease;
@@ -662,10 +541,6 @@ a.h-text-dark:hover {
 }
 
 
-/* ----------------------------------------------------------------
-	Text Size Utility Classes
------------------------------------------------------------------*/
-
 .text-smaller {
 	font-size: 80% !important;
 }
@@ -678,10 +553,6 @@ a.h-text-dark:hover {
 	font-size: 90% !important;
 }
 
-
-/* ----------------------------------------------------------------
-	BG Color Utility Classes
------------------------------------------------------------------*/
 
 .bg-ts {
 	-webkit-transition: background-color .5s ease;
@@ -745,10 +616,6 @@ a.h-text-dark:hover {
 	border-width: 2rem;
 }
 
-
-/* ----------------------------------------------------------------
-	Gradient Utility Classes
------------------------------------------------------------------*/
 
 .gradient-light-grey,
 .h-gradient-light-grey:hover {
@@ -870,10 +737,6 @@ a.h-text-dark:hover {
 }
 
 
-/* ----------------------------------------------------------------
-	Border Utility Classes
------------------------------------------------------------------*/
-
 .border-width-0,
 .h-border-width-0:hover {
 	border-width: 0px !important;
@@ -980,10 +843,6 @@ a.h-text-dark:hover {
 }
 
 
-/* ----------------------------------------------------------------
-	Rounded
------------------------------------------------------------------*/
-
 .rounded-xl {
 	border-radius: 0.4rem !important;
 }
@@ -996,10 +855,6 @@ a.h-text-dark:hover {
 	border-radius: 0.6rem !important;
 }
 
-
-/* ----------------------------------------------------------------
-	Shadows
------------------------------------------------------------------*/
 
 .h-shadow-sm:hover {
 	box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
@@ -1022,10 +877,6 @@ a.h-text-dark:hover {
 	transition: box-shadow 0.5s ease;
 }
 
-
-/* ----------------------------------------------------------------
-	Transform Utility Classes
------------------------------------------------------------------*/
 
 .translate-y-sm,
 .h-translate-y-sm:hover {
@@ -1112,11 +963,6 @@ a.h-text-dark:hover {
 	transition: all 0.5s cubic-bezier(.215, .61, .355, 1);
 }
 
-
-/* ----------------------------------------------------------------
-	Align Wide Utility Classes
------------------------------------------------------------------*/
-
 .align-wide-lg {
 	margin-left: calc(50% - 480px) !important;
 	margin-right: calc(50% - 480px) !important;
@@ -1156,10 +1002,6 @@ a.h-text-dark:hover {
 	width: 100vw !important;
 }
 
-
-/* ----------------------------------------------------------------
-	Z-Index Utility Classes
------------------------------------------------------------------*/
 
 .z-1 {
 	z-index: 1 !important;
@@ -1201,13 +1043,6 @@ a.h-text-dark:hover {
 	z-index: 10 !important;
 }
 
-
-/* ----------------------------------------------------------------
-	Bootstrap Utility Classes: Extended
------------------------------------------------------------------*/
-
-
-/*	Spacing Utilities */
 
 .m-6 {
 	margin: 5rem !important;
@@ -1466,8 +1301,6 @@ a.h-text-dark:hover {
 }
 
 
-/*	Custom Bootstrap Column */
-
 .col-1-5,
 .col-sm-1-5,
 .col-md-1-5,
@@ -1517,8 +1350,6 @@ a.h-text-dark:hover {
 	}
 }
 
-
-/*	Gutters */
 
 .gutter-10 {
 	margin-right: -5px;
@@ -1988,11 +1819,6 @@ a.h-text-dark:hover {
 	}
 }
 
-
-/* ----------------------------------------------------------------
-	Max Width Utility Classes
------------------------------------------------------------------*/
-
 .mw-xs {
 	max-width: 36rem !important;
 }
@@ -2016,11 +1842,6 @@ a.h-text-dark:hover {
 .mw-xxl {
 	max-width: 100rem !important;
 }
-
-
-/* ----------------------------------------------------------------
-	Height Utility Classes
------------------------------------------------------------------*/
 
 .min-vh-75 {
 	min-height: 75vh !important;
@@ -2542,11 +2363,6 @@ a.h-text-dark:hover {
 	}
 }
 
-
-/* ----------------------------------------------------------------
-	Position Utility Classes: Extended
------------------------------------------------------------------*/
-
 @media (min-width: 576px) {
 	.position-sm-static {
 		position: static !important;
@@ -2640,10 +2456,6 @@ a.h-text-dark:hover {
 }
 
 
-/* ----------------------------------------------------------------
-	Lazy Loading
------------------------------------------------------------------*/
-
 .lazy {
 	opacity: 0;
 }
@@ -2666,11 +2478,6 @@ img.lazy {
 img.lazy:not([src]) {
 	visibility: hidden;
 }
-
-
-/* ----------------------------------------------------------------
-	Sections
------------------------------------------------------------------*/
 
 
 .section {
@@ -2713,20 +2520,12 @@ img.lazy:not([src]) {
 .section:hover .revealer-image { bottom: -50px; }
 
 
-/* ----------------------------------------------------------------
-	Columns & Grids
------------------------------------------------------------------*/
-
 
 .postcontent,
 .sidebar {
 	position: relative;
 }
 
-
-/* ----------------------------------------------------------------
-	Flex Slider
------------------------------------------------------------------*/
 
 
 .fslider,
@@ -2819,20 +2618,12 @@ html[xmlns] .slider-wrap {
 }
 
 
-/* ----------------------------------------------------------------
-	Top Bar
------------------------------------------------------------------*/
-
-
 #top-bar {
 	position: relative;
 	border-bottom: 1px solid #EEE;
 	font-size: 13px;
 }
 
-
-/* Top Links
----------------------------------*/
 
 .top-links {
 	position: relative;
@@ -2983,10 +2774,6 @@ html[xmlns] .slider-wrap {
 	right: 0;
 }
 
-
-/* Top Social
------------------------------------------------------------------*/
-
 #top-social {
 	display: -ms-flexbox;
 	display: flex;
@@ -3049,9 +2836,6 @@ html[xmlns] .slider-wrap {
 }
 
 
-/* Top Login
------------------------------------------------------------------*/
-
 #top-login { margin-bottom: 0; }
 
 #top-login .checkbox { margin-bottom: 10px; }
@@ -3075,11 +2859,6 @@ html[xmlns] .slider-wrap {
 	border-top-left-radius: 0;
 	border-top-right-radius: 0;
 }
-
-
-/* ----------------------------------------------------------------
-	Header
------------------------------------------------------------------*/
 
 
 #header {
@@ -3217,9 +2996,6 @@ html[xmlns] .slider-wrap {
 		border-bottom: none;
 	}
 
-	/* ----------------------------------------------------------------
-		Sticky Header
-	-----------------------------------------------------------------*/
 
 	#logo img {
 		-webkit-transition: height .4s ease, padding .4s ease, margin .4s ease, opacity .3s ease;
@@ -3250,16 +3026,12 @@ html[xmlns] .slider-wrap {
 
 	.semi-transparent.sticky-header #header-wrap { background-color: rgba(255,255,255,0.8) }
 
-	/* Primary Menu - Style 3
-	-----------------------------------------------------------------*/
 
 	.sticky-header .style-3 .menu-container > .menu-item > .menu-link {
 		margin: 0;
 		border-radius: 0;
 	}
 
-	/* Primary Menu - Style 4
-	-----------------------------------------------------------------*/
 
 	.sticky-header .style-4 .menu-container > .menu-item > .menu-link {
 		padding-top: 8px;
@@ -3267,8 +3039,6 @@ html[xmlns] .slider-wrap {
 		margin: 10px 0;
 	}
 
-	/* Primary Menu - Style 5
-	-----------------------------------------------------------------*/
 
 	.sticky-header-shrink .style-5 .menu-container > .menu-item { margin-left: 2px; }
 
@@ -3331,10 +3101,6 @@ html[xmlns] .slider-wrap {
 }
 
 
-/* ----------------------------------------------------------------
-	Logo
------------------------------------------------------------------*/
-
 
 #logo {
 	position: relative;
@@ -3394,10 +3160,6 @@ html[xmlns] .slider-wrap {
 }
 
 
-/* ----------------------------------------------------------------
-	Retina Logo
------------------------------------------------------------------*/
-
 
 @media
 only screen and (-webkit-min-device-pixel-ratio: 2),
@@ -3416,10 +3178,6 @@ only screen and (                min-resolution: 2dppx) {
 
 }
 
-
-/* ----------------------------------------------------------------
-	Header Right Area
------------------------------------------------------------------*/
 
 
 .header-extras {
@@ -3450,11 +3208,6 @@ only screen and (                min-resolution: 2dppx) {
 	font-weight: 400;
 	color: #1ABC9C;
 }
-
-
-/* ----------------------------------------------------------------
-	Primary Menu
------------------------------------------------------------------*/
 
 .primary-menu {
 	display: -ms-flexbox;
@@ -3651,10 +3404,6 @@ body:not(.top-search-open) .top-search-parent #primary-menu-trigger {
 }
 
 
-/* ----------------------------------------------------------------
-	Mega Menu
------------------------------------------------------------------*/
-
 .mega-menu:not(.mega-menu-full) .mega-menu-content .container {
 	max-width: none;
 }
@@ -3698,9 +3447,6 @@ body:not(.top-search-open) .top-search-parent #primary-menu-trigger {
 .mega-menu-content .mega-menu-column:first-child {
 	border-top: 0;
 }
-
-/* Off Canvas Menu
------------------------------------------------------------------*/
 
 @media (max-width: 991.98px) {
 
@@ -3957,10 +3703,6 @@ body:not(.top-search-open) .top-search-parent #primary-menu-trigger {
 		display: none;
 	}
 
-	/* ----------------------------------------------------------------
-		Mega Menu
-	-----------------------------------------------------------------*/
-
 	.mega-menu:not(.mega-menu-full) .mega-menu-content .container {
 		max-width: none;
 		padding: 0 15px !important;
@@ -4084,7 +3826,6 @@ body:not(.top-search-open) .top-search-parent #primary-menu-trigger {
 
 	.mega-menu-style-2 .sub-menu-container .menu-item:hover > .menu-link { padding-left: 12px; }
 
-	/* Sub-Menu On-Click Dropdown */
 	.on-click .sub-menu-container,
 	.on-click .mega-menu-content {
 		display: none;
@@ -4096,8 +3837,6 @@ body:not(.top-search-open) .top-search-parent #primary-menu-trigger {
 	}
 
 
-	/* Primary Menu - Style 2
-	-----------------------------------------------------------------*/
 
 	.style-2 #logo {
 		margin-right: 1.5rem;
@@ -4112,9 +3851,6 @@ body:not(.top-search-open) .top-search-parent #primary-menu-trigger {
 		margin-left: auto;
 	}
 
-
-	/* Primary Menu - Style 3
-	-----------------------------------------------------------------*/
 
 	.style-3 .menu-container > .menu-item > .menu-link {
 		margin: 28px 0;
@@ -4135,8 +3871,6 @@ body:not(.top-search-open) .top-search-parent #primary-menu-trigger {
 	}
 
 
-	/* Primary Menu - Style 4
-	-----------------------------------------------------------------*/
 
 	.style-4 .menu-container > .menu-item > .menu-link {
 		margin: 28px 0;
